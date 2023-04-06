@@ -1,0 +1,228 @@
+/* Styles généraux */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(170, 205, 239);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px;
+    text-align: center;
+  }
+  
+  /* Styles de l'en-tête */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(170, 205, 239);;
+    
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav li a {
+    color: #333;
+    text-decoration: none;
+   
+  }
+
+  nav img{
+    float: left;
+    width: 100px;
+  }
+  
+  /* Styles de la section d'accueil */
+  .hero {
+    background-image: url(.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #054491;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -100px;
+    font-style: italic;
+   background-color: rgb(252, 255, 255);
+  }
+  .hero p{
+color: #333;
+  }
+  .hero h1 {
+    font-size: 5rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .cta-btn {
+    background-color: #ff5e6c;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .cta-btn:hover {
+    background-color: #ff4858;
+  }
+  
+  /* Styles de la section "À propos" */
+  #about {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+  }
+  
+  #about h2 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  /* Styles de la section "Produits" */
+  #products {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .product {
+    background-color: #fff;
+    box-shadow: ;
+    padding: 150px;
+    text-align: ;
+   
+  }
+  
+  .product img {
+    width: 100%;
+    height: 25%;
+  }
+  
+  .product h4 {
+    font-size: 1.2rem;
+    margin: 10px 0 10px;
+text-align: left;
+  }
+  
+  .product p.price {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Styles de la section "Contactez-nous" */
+  #contact {
+
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+  }
+  
+  #contact h2 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+   border-radius: 15px;
+    }
+    .btn-add-to-cart,
+  .btn-validate-cart {
+    background-color: #4CAF50; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none; /* Supprimer les bordures du bouton */
+    padding: 10px 20px; /* Ajouter un espacement entre le texte et le bord du bouton */
+    font-size: 8px; /* Taille du texte */
+    cursor: pointer; /* Changer le curseur de la souris lorsqu'on passe dessus */
+    border-radius: 5px; /* Ajouter des coins arrondis au bouton */
+  }
+  
+  /* Styling pour le bouton "Valider ma commande" */
+  .btn-validate-cart {
+    background-color: burlywood; /* Changer la couleur de fond */
+  }
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+#partenaires {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #partenaires h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  #partenaires p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #partenaires ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #partenaires li {
+    margin: 0 10px;
+  }
+  
+  #partenaires img {
+    max-width: 150px;
+    height: auto;
+    width: auto;
+    justify-content: center;
+  }
